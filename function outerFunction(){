@@ -1,0 +1,14 @@
+function outerFunction(){
+	
+
+
+	function innerFunction(){
+		return "Fuck Shit"
+	};
+
+
+};
+
+let closure = outerFunction();
+console.log(closure);
+closure();
